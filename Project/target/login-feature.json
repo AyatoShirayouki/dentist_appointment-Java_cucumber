@@ -1,0 +1,534 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 203192600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the reservation window",
+            "match": {
+              "location": "ReserveSteps.user_opens_the_reservation_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User makeas an appointment with valid date, time, role and user",
+        "description": "",
+        "id": "dentist-appointment;user-makeas-an-appointment-with-valid-date,-time,-role-and-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 50100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enters valid date",
+            "match": {
+              "location": "ReserveSteps.enters_valid_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enters valid hour",
+            "match": {
+              "location": "ReserveSteps.enters_valid_hour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enters valid role",
+            "match": {
+              "location": "ReserveSteps.enters_valid_role()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enters valid user credentials",
+            "match": {
+              "location": "ReserveSteps.enters_valid_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8376100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Presses the send button",
+            "match": {
+              "location": "ReserveSteps.presses_the_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Sees a success message",
+            "match": {
+              "location": "ReserveSteps.sees_a_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 42700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the reservation window",
+            "match": {
+              "location": "ReserveSteps.user_opens_the_reservation_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "User makeas an appointment withot entering a date",
+        "description": "",
+        "id": "dentist-appointment;user-makeas-an-appointment-withot-entering-a-date",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enters valid hour",
+            "match": {
+              "location": "ReserveSteps.enters_valid_hour()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enters valid role",
+            "match": {
+              "location": "ReserveSteps.enters_valid_role()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enters valid user credentials",
+            "match": {
+              "location": "ReserveSteps.enters_valid_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Presses the send button",
+            "match": {
+              "location": "ReserveSteps.presses_the_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Sees a missing date message",
+            "match": {
+              "location": "ReserveSteps.sees_a_missing_date_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 49200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the reservation window",
+            "match": {
+              "location": "ReserveSteps.user_opens_the_reservation_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "User makeas an appointment withot entering a time",
+        "description": "",
+        "id": "dentist-appointment;user-makeas-an-appointment-withot-entering-a-time",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enters valid date",
+            "match": {
+              "location": "ReserveSteps.enters_valid_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enters valid role",
+            "match": {
+              "location": "ReserveSteps.enters_valid_role()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enters valid user credentials",
+            "match": {
+              "location": "ReserveSteps.enters_valid_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Presses the send button",
+            "match": {
+              "location": "ReserveSteps.presses_the_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Sees a missing hour message",
+            "match": {
+              "location": "ReserveSteps.sees_a_missing_hour_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 45800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the reservation window",
+            "match": {
+              "location": "ReserveSteps.user_opens_the_reservation_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "User makeas an appointment withot entering a role",
+        "description": "",
+        "id": "dentist-appointment;user-makeas-an-appointment-withot-entering-a-role",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enters valid date",
+            "match": {
+              "location": "ReserveSteps.enters_valid_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enters valid hour",
+            "match": {
+              "location": "ReserveSteps.enters_valid_hour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enters valid user credentials",
+            "match": {
+              "location": "ReserveSteps.enters_valid_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Presses the send button",
+            "match": {
+              "location": "ReserveSteps.presses_the_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Sees a missing role message",
+            "match": {
+              "location": "ReserveSteps.sees_a_missing_role_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 62000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the reservation window",
+            "match": {
+              "location": "ReserveSteps.user_opens_the_reservation_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "User makeas an appointment withot entering user credentials",
+        "description": "",
+        "id": "dentist-appointment;user-makeas-an-appointment-withot-entering-user-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Enters valid date",
+            "match": {
+              "location": "ReserveSteps.enters_valid_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Enters valid hour",
+            "match": {
+              "location": "ReserveSteps.enters_valid_hour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enters valid role",
+            "match": {
+              "location": "ReserveSteps.enters_valid_role()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Presses the send button",
+            "match": {
+              "location": "ReserveSteps.presses_the_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Sees a missing user credentials message",
+            "match": {
+              "location": "ReserveSteps.sees_a_missing_user_credentials_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the reservation window",
+            "match": {
+              "location": "ReserveSteps.user_opens_the_reservation_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 43,
+        "name": "User makeas an appointment withot input data",
+        "description": "",
+        "id": "dentist-appointment;user-makeas-an-appointment-withot-input-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Presses the send button",
+            "match": {
+              "location": "ReserveSteps.presses_the_send_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Sees a missing input data message",
+            "match": {
+              "location": "ReserveSteps.sees_a_missing_input_data_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dentist Appointment",
+    "description": "",
+    "id": "dentist-appointment",
+    "keyword": "Feature",
+    "uri": "uni/fmi/reserve/Reserve.feature"
+  }
+]
